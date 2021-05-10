@@ -7,3 +7,9 @@ Syntax:
 ```
 newlist = [expression for item in iterable if condition == True]
 ```
+*A lambda function is a small anonymous function.
+A lambda function can take any number of arguments, but can only have one expression.*
+Syntax:
+```java script
+lambda arguments : expression
+```
