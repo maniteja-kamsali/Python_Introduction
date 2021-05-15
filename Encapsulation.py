@@ -10,12 +10,11 @@ class Computer:
         self.__maxprice = price
 
 c = Computer()
-c.sell()
-
 # change the price
-c.__maxprice = 1000
+#c.__maxprice = 1000
 c.sell()
-
+print(c.__dict__)
+print(c._Computer__maxprice) #this is how to access private method
 # using setter function
-c.setMaxPrice(1000)
-c.sell()
+#c.setMaxPrice(1000)
+#c.sell()
