@@ -37,9 +37,14 @@ class B(A):
 ---
 File Open Mode | Description
 ---------------|------------
-w | To write data into file. If any data is already present in the file, it would be deleted and the present data will be stored
-r | To read data from the file. The file pointer is positioned at the beginning of the file.
-a | To append data to the file. It adds to the end of file. If file doesnot exist, it will create a new file for writing data.
+w | To write data into file. If any data is already present in the file, it would be deleted and the present   data will be stored
+ r | To read data from the file. The file pointer is positioned at the beginning of the file.
+a | To append data to the file. It adds to the end of file. If file doesnot exist, it will create a new file 
+    for writing data.
 w+ | To write and read data of a file. The previous data in the file will be deleted.
 r+ | To read and write data into a file. The previous data in the file will not be deleted. The file pointer is placed at the beginning of the file.
 a+ | To append and read data of a file. The file pointer will be at the end of the file if the file exists.The file pointer will be at the end of the file if the file exists. If      the file doesnot exist, It creates a new file for reading and writing.
+
+**OS module in Python provides functions for interacting with the operating system. OS comes under Python’s standard utility modules. This module provides a portable way of using operating system dependent functionality. os.path module is sub-module of OS module in Python used for common pathname manipulation.**
+
+
