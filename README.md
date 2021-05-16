@@ -37,9 +37,8 @@ class B(A):
 ---
 File Open Mode | Description
 ---------------|------------
-w | To write data into file. If any data is already present in the file, it would be deleted and the present 
-    data will be stored
-r | To read data from the file. The file pointer is positioned at the beginning of the file.
+w | To write data into file. If any data is already present in the file, it would be deleted and the present   data will be stored
+ r | To read data from the file. The file pointer is positioned at the beginning of the file.
 a | To append data to the file. It adds to the end of file. If file doesnot exist, it will create a new file 
     for writing data.
 w+ | To write and read data of a file. The previous data in the file will be deleted.
